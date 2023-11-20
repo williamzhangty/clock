@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+*{
+    margin:0;
+    padding:0;
+    outline: none;
+    border-style: none;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "Nunito Sans", "Open Sans", Arial, sans-serif;
+    color: #f4f5ff;
+    background-color: #000;
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline:auto;
+}
+
+.center {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    text-align: center;
+}
+
+#clock {
+  font-size: 110px;
+  margin: 20px;
+}
+
+#alarmSet {
+  margin: 20px;
+  display: inline-block;
+}
+
+input, button {
+  font-size: 15px;
+  margin: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+input {
+  width: 80px;
+  text-align: center;
+  background-color: #141414;
+  color: #fff;
+}
+
+button {
+  color: #fff;
+  background-color: #45ba45;
+}
+
+input::placeholder {
+  color: #707070; 
+}
+
+i {
+  margin: 10px;
+}
+
+#alarmTimeBox {
+  height: 35px;
+}
+
+
